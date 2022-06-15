@@ -123,6 +123,6 @@ def gameLoop():
                 print(f"You scored: {len(cardLine) - 1}")
                 writeScore()
             cardLine.append(nextCard)
-
+clear()
 instructions()
 gameLoop()
